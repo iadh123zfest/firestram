@@ -7,7 +7,6 @@ client.on('ready', () => {
 });
  
 
-var prefix = "-";
 client.on('message', message => {
   var prefix = "-";
   if (!message.content.startsWith(prefix)) return;
