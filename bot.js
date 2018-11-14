@@ -25,3 +25,11 @@ client.on('message', message => {
       message.channel.sendMessage(`**  ${argresult} تم تغيير الحاله الي :white_check_mark:**`)
   }
   });
+
+client.on('ready', () => {
+
+console.log('iiFireGame');
+
+});
+
+client.login(process.env.BOT_KEY);
