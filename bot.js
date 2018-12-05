@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const Util = require('discord.js');
     client = new Discord.Client({sisableEveryone: true})
  const devs = ['408374252291751976'];
-const adminprefix = "!";
+const adminprefix = "L";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
@@ -28,8 +28,8 @@ client.on('message', message => {
 
 client.on('ready', () => {
 
-console.log('iiFireGame');
+console.log('oPablo');
 
 });
 
-client.login(process.env.BOT_KEY);
+client.login(NTA4OTk3Mjg0NDM3MTY0MDMy.DuLZiQ.bPZGHYFB-QfVrwnfDPmbNJNFj64);
