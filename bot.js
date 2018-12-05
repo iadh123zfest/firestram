@@ -32,4 +32,4 @@ console.log('iiFireGame');
 
 });
 
-client.login(process.env.BOT_KEY);
+client.login(NTA4OTk3Mjg0NDM3MTY0MDMy.DuLZiQ.bPZGHYFB-QfVrwnfDPmbNJNFj64);
